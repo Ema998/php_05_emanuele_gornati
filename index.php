@@ -8,16 +8,16 @@ function mediaNumeriPari($array){
     foreach($array as $number){
         if($number % 2 == 0){
             $somma += $number;
-            $coounter++;
+            $counter++;
         }
     };
     
     if($counter > 0){
         $media = $somma / $counter;
         echo "la media dei numeri pari è: " . $media;
-        return $media;
+        echo $media;
     }else{
-        return "non ci sono numeri pari";
+        echo "non ci sono numeri pari";
     };
 }
 
