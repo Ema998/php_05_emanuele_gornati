@@ -12,13 +12,7 @@ function mediaNumeriPari($array){
         }
     };
     
-    if($counter > 0){
-        $media = $somma / $counter;
-        echo "la media dei numeri pari è: " . $media;
-        echo $media;
-    }else{
-        echo "non ci sono numeri pari";
-    };
-}
+    $media = $somma / $counter;
+     echo $media
 
 ?>
