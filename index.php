@@ -11,6 +11,7 @@ function mediaNumeriPari($array){
             $counter++;
         }
     };
+    return $somma / $counter
 }
     
     $media = $somma / $counter;
