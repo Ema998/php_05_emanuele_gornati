@@ -10,10 +10,10 @@ function mediaNumeriPari($array){
             $counter++;
         }
     };
-    return $somma / $counter
+    return $somma / $counter;
 }
     $lista = [1,2,3,4,5,6,7,8,9];
     $media = mediaNumeriPari($lista);
-     echo $media
+     echo $media;
 
 ?>
